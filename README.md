@@ -4,7 +4,7 @@
 Welcome to the **Full Stack Landing Page Template** project! This is a production-ready web application designed with a modern tech stack and deployed on an **Ubuntu Server in Azure**. It includes **frontend, backend, authentication, caching, and database services**.
 
 ### 🛠️ Technologies Used
-- ⚛️ **Frontend**: React (Vite + TypeScript) with ShadCN UI components (Responsive)
+- ⚛️ **Frontend**: React (Vite + TypeScript) with Shadcn/ui components (Responsive)
 - 🐍 **Backend**: Django Rest Framework
 - 🐘 **Database**: PostgreSQL
 - 🔥 **Cache**: Redis
@@ -122,6 +122,7 @@ EMAIL_HOST_PASSWORD=your-gmail-app-password
   ```shell
   docker compose up --build --watch
   ```
+- Check my [**Shadcn/ui figma kit**](https://www.figma.com/community/file/1457773631329746187).
 
 ## 🛠️ Contributing
 Feel free to fork, submit issues, or suggest improvements! 🚀
