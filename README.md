@@ -71,12 +71,12 @@ EMAIL_HOST_PASSWORD=your-gmail-app-password
 - Set **DEBUG=False** in .env
 - Ensure these lines in **docker-compose.yml** are commented out:
   ```yaml
-  frontend:
+  backend:
   ...
   #ports: ["8000:8000"]
   #develop: { watch: [ { action: sync, path: ./backend, target: /app, ignore: [venv/] } ] }
   ...
-  backend:
+  frontend:
   ...
   #ports: ["5173:5173"]
   #develop: { watch: [ { action: sync, path: ./frontend, target: /app, ignore: [node_modules/] } ] }
@@ -107,12 +107,12 @@ EMAIL_HOST_PASSWORD=your-gmail-app-password
 - Set **DEBUG=True** in .env
 - Uncomment these lines in **docker-compose.yml**:
   ```yaml
-  frontend:
+  backend:
   ...
   ports: ["8000:8000"]
   develop: { watch: [ { action: sync, path: ./backend, target: /app, ignore: [venv/] } ] }
   ...
-  backend:
+  frontend:
   ...
   ports: ["5173:5173"]
   develop: { watch: [ { action: sync, path: ./frontend, target: /app, ignore: [node_modules/] } ] }
