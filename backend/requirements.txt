@@ -1,0 +1,10 @@
+django
+djangorestframework
+django-cors-headers
+djangorestframework-simplejwt
+django-redis
+PyGithub
+drf-yasg
+gunicorn
+setuptools
+psycopg2
